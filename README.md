@@ -49,3 +49,22 @@
   - $ git show --oneline (커밋 로그 한 줄과 파일 차이 표시)
   - $ git show -s (파일 차이는 표시되지 않음)
   - $ git show [HEAD] (지정한 HEAD의 커밋 정보 표시)
+
+## 명령 checkout
+  ### 주요 명령
+  - $ git checkout HEAD~ (HEAD 이전 커밋으로 이동)
+  - $ git checkout - (이전 checkout으로 이동)
+
+## 지금까지의 내용
+  - ![image](https://github.com/chaengni/Study-practice/assets/144201088/21479ba1-2999-4df1-b5c0-f83185852873)
+  - ![image](https://github.com/chaengni/Study-practice/assets/144201088/f820c93b-5df7-4943-bb4c-ec3aa50e890a)
+  - ![image](https://github.com/chaengni/Study-practice/assets/144201088/a9be1d64-24c9-41e2-bd18-350c11f54fa1)
+  - ![image](https://github.com/chaengni/Study-practice/assets/144201088/4dec5392-1148-40ac-80ca-b7072d22aefc)
+
+## 파일 비교 diff
+  ### diff
+  - $ git diff (스테이징 영역 기준으로 작업 디렉토리 파일 비교)
+  - $ git diff --staged HEAD / git diff --staged HEAD~ (긱 저장소 기준으로 스테이징 영역 파일 비교)
+  - $ gif diff HEAD / git diff HEAD~ (깃 저장소 기준으로 작업 디렉토리 파일 비교)
+    
+
